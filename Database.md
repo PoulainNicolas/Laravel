@@ -10,7 +10,7 @@ DB_DATABASE=app
 DB_USERNAME=root
 DB_PASSWORD=root
 ```
-3. Modification du fichier database.php
+3. Modification du fichier database.php (config/database.php)
 ```php
   'mysql' => [
             'driver' => 'mysql',
