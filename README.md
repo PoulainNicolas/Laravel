@@ -1,7 +1,7 @@
 # Laravel
 
-[Installation](https://github.com/pierrenoel/Laravel/blob/master/Installation.md)
-[Database](https://github.com/pierrenoel/Laravel/blob/master/Database.md)
+1. [Installation](https://github.com/pierrenoel/Laravel/blob/master/Installation.md)
+2. [Database](https://github.com/pierrenoel/Laravel/blob/master/Database.md)
 
 
 
