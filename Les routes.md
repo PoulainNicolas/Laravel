@@ -19,5 +19,14 @@ Ce bout de code nous indique que lorsque l'utilisateur arrivera sur la page (acc
 Route::get('/articles/{n}', function ($n) {
     return "Article n°: " .$n;
 });
-```
+
+
 cette url http://127.0.0.1:8000/articles/50 retournera "Article n° 50"
+
+### 4. Les regex
+
+```PHP
+Route::get('/articles/{n}', function ($n) {
+    return "Article n°: " .$n;
+})->where('n','[0-9]+');
+```
