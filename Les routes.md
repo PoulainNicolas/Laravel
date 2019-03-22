@@ -29,3 +29,6 @@ Route::get('/articles/{n}', function ($n) {
     return "Article n°: " .$n;
 })->where('n','[0-9]+');
 ```
+la function where permet de parser les informations reçues via un regex, dans notre cas, il va prendre une infinité de chiffres uniquement.
+
+### 5. Les vues
