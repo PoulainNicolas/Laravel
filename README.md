@@ -3,8 +3,21 @@
 ## 1.La base
 
 1. Création d'un dossier via le terminal
-2. *composer create-project --prefer-dist laravel/laravel NomDuProjet*
+2. **composer create-project --prefer-dist laravel/laravel NomDuProjet**
 3. Modification du fichier .env.example en .env
-4. Lancer la commande suivante *php artisan key:generate* afin de générer une clé
-5. Lancer le projet via la commande *php artisan serve*
+4. Lancer la commande suivante ***php artisan key:generate** afin de générer une clé
+5. Lancer le projet via la commande ***php artisan serve**
+
+## 2. La base de données du projet
+1. Création d'une base de donnéés sous PhpMyAdmin
+2. Modification du fichier .env
+
+```
+DB_CONNECTION=mysql
+DB_HOST=127.0.0.1
+DB_PORT=3306
+DB_DATABASE=app
+DB_USERNAME=root
+DB_PASSWORD=root
+```
 
