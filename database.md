@@ -1,4 +1,4 @@
-## 2.La base de données
+## 2. La base de données
 
 1. Création d'une base de donnéés sous PhpMyAdmin
 2. Modification du fichier .env (qui se trouve à la racine)
