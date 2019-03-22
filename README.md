@@ -11,7 +11,6 @@
 ## 2. La base de données du projet
 1. Création d'une base de donnéés sous PhpMyAdmin
 2. Modification du fichier .env (qui se trouve à la racine)
-
 ```
 DB_CONNECTION=mysql
 DB_HOST=127.0.0.1
@@ -21,7 +20,6 @@ DB_USERNAME=root
 DB_PASSWORD=root
 ```
 3. Modification du fichier database.php
-
 ```php
   'mysql' => [
             'driver' => 'mysql',
