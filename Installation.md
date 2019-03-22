@@ -1,4 +1,10 @@
-## 1. Installation
+## 1. Composer
+Composer est un logiciel gestionnaire de dépendances libre écrit en PHP. Il permet à ses utilisateurs de déclarer et d'installer les bibliothèques dont le projet principal a besoin.
+
+1. Installer composer **sudo apt-get install composer**
+
+
+## 2. Nouveau projet laravel
 
 1. Création d'un dossier via le terminal
 2. **composer create-project --prefer-dist laravel/laravel NomDuProjet**
