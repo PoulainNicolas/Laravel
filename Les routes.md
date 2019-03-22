@@ -4,6 +4,11 @@ Lorsqu'on affiche une page Web Laravel dans le navigateur, l'URL ne se terminera
 
 Laravel fera le lien entre cette suite de mots et une méthode d'action définie dans un contrôleur. Ceci sera réalisé grâce à un système de routage configuré dans Laravel.
 
-Nous allons donc ensemble voir comment écrire des routes.
+Nous allons donc ensemble voir comment écrire des routes. Pour modifier ou ajouter des routes aux projets, il faut modifier le fichier routes/web.php
 
+```PHP
+Route::get('/', function () {
+    return view('welcome');
+});
+```
 
