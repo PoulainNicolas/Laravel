@@ -1,4 +1,4 @@
-## 1.Installation
+## 1. Installation
 
 1. Création d'un dossier via le terminal
 2. **composer create-project --prefer-dist laravel/laravel NomDuProjet**
@@ -7,7 +7,7 @@
 5. Lancer le projet via la commande ***php artisan serve** Il va générer un lien localhost sous le port 8000 afin de laisser le port 80 disponible afin de travailler sous d'autres projets en même temps <http://127.0.0.1:8000>
 
 
-## 2. La base de données du projet
+## 2.La base de données
 1. Création d'une base de donnéés sous PhpMyAdmin
 2. Modification du fichier .env (qui se trouve à la racine)
 ```
