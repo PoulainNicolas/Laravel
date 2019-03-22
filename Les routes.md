@@ -20,4 +20,4 @@ Route::get('/articles/{n}', function ($n) {
     return "Article n°: " .$n;
 });
 ```
-http://127.0.0.1:8000/articles/50
+cette url http://127.0.0.1:8000/articles/50 retournera "Article n° 50"
