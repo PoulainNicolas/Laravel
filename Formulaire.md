@@ -6,6 +6,7 @@ composer require laravelcollective/html
 ```
 
 2. Modification du fichier app
+
 Ajouter cette ligne dans les providers
 ```
 Collective\Html\HtmlServiceProvider::class,
