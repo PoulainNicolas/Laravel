@@ -1,7 +1,7 @@
 ## 2. Les formulaires
 
 1. Ouvrir le terminal
-```PHP
+```TERMINAL
 composer require laravelcollective/html
 ```
 
