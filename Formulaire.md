@@ -62,12 +62,12 @@ Exemple:
 
     <div class="form-group">
         {{Form::label('title','Title')}}
-        {{Form::text('title','Title',array('class' => 'form-control'))}}
+        {{Form::text('title','',array('class' => 'form-control','placeholder'=>'Titre'))}}
     </div>
 
     <div class="form-group">
         {{Form::label('content','content')}}
-        {{Form::text('content','Content',array('class' => 'form-control'))}}
+        {{Form::text('content','',array('class' => 'form-control','placeholder'=>'Content'))}}
     </div>
 
     <div class="form-group">
