@@ -57,6 +57,8 @@ Exemple:
     <div class="col-md-5 section">
     
     {{ Form::open(array('action' => 'TodoController@store')) }}
+    
+    {{ Form::token() }}
 
     <div class="form-group">
         {{Form::label('title','Title')}}
