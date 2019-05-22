@@ -33,7 +33,7 @@ Ajouter cette ligne dans les alias
 ```
 # Les inputs
 ```PHP
-{{ Form::text('title),'Title', }}
+{{ Form::text('title,'Title',) }}
 
 ```
 # Les buttons
@@ -43,6 +43,14 @@ Ajouter cette ligne dans les alias
 ```
 
 # Attribuer une classe aux éléments de mon formulaire (avec bootstrap par exemple)
+
+Pour attribuer une classe, il faut passer en paramètre un tableau associatif
+
+Exemple:
+
+```PHP
+{{ Form::submit('Enregistrer',array('class' => 'btn btn-warning')) }}
+```
 
 ```PHP
 <div class="row justify-content-center">
