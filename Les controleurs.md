@@ -15,4 +15,4 @@ Route::resource('/','PostsController');
 $posts = Post::all();
 return view('posts.index',compact('posts'));
 ```
-Cette fonction retourne tous les posts à la vues **index** du sous dossier **posts**
+Cette fonction retourne tous les posts à la vue **index** du sous dossier **posts**
