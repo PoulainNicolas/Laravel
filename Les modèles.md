@@ -20,6 +20,6 @@ class Post extends Model
 
 Explication
 
-**protected $table = 'post'** => on lui indique sur quelle table on désirer travailler
-**protected $fillable = array('title,content,slug')*** => quelles sont les variables qui vont recevoir des données de la part de l'utilisateur
-**public $timestamps = true*** => Autorisé d'écrire en base de données l'heure et la date lors de la création ou modification d'un post.
+1. **protected $table = 'post'** => on lui indique sur quelle table on désirer travailler
+2. **protected $fillable = array('title,content,slug')*** => quelles sont les variables qui vont recevoir des données de la part de l'utilisateur
+3. **public $timestamps = true*** => Autorisé d'écrire en base de données l'heure et la date lors de la création ou modification d'un post.
