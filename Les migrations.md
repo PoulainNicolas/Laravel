@@ -33,3 +33,4 @@ Une fois ceci fait, il faut migrer la table vers notre base de données
 ```linux
 php artisan migrate
 ```
+[Les modèles](https://github.com/pierrenoel/Laravel/blob/master/Les%20mod%C3%A8les.md)
