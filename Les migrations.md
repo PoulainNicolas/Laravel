@@ -26,3 +26,10 @@ Dans la fonction UP, il va falloir écrire tous les champs de la table User
     }
 ```
 
+$table->TYPE('NOM DU CHAMP')
+
+Une fois ceci fait, il faut migrer la table vers notre base de données
+
+```linux
+php artisan migrate
+```
