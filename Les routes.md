@@ -1,6 +1,6 @@
 ## 4. Les routes
 
-Les urls d'un projet Laravel se font de cette sorte: monsite.be/controlleur/action
+Les urls d'un projet Laravel sont: **monsite.be/controlleur/action**
 
 Exemple: http://mondomaine.com/post/create.
 
