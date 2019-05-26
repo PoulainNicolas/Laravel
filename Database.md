@@ -27,4 +27,4 @@ DB_PASSWORD=root
             'engine' => null,
         ],
 ```
-[La structure](https://github.com/pierrenoel/Laravel/blob/master/Structure.md)
+[La structure](https://github.com/pierrenoel/Laravel/blob/master/la-structure.md)
