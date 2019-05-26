@@ -55,3 +55,5 @@ Route::get('user/{name}',function(){
     return view('post',compact('name');
 });
 ```
+
+[Les migrations](https://github.com/pierrenoel/Laravel/blob/master/Les%20migrations.md)
