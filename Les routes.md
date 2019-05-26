@@ -1,8 +1,10 @@
 ## 4. Les routes
 
-Lorsqu'on affiche une page Web Laravel dans le navigateur, l'URL ne se terminera pas par le nom d'un fichier .html ni .php. Plutôt, il s'agira d'une suite de mots ressemblant à des dossiers et sous-dossiers, comme par exemple http://mondomaine.com/produits/creation.
+Les urls de mon site se font de cette sorte: monsite.be/controlleur/action
 
-Laravel fera le lien entre cette suite de mots et une méthode d'action définie dans un contrôleur. Ceci sera réalisé grâce à un système de routage configuré dans Laravel.
+Exemple: http://mondomaine.com/post/create.
+
+Laravel fait donc le lien entre cette suite de mots et une méthode d'action définie dans un contrôleur. Ceci est réalisé grâce à un système de routage configuré dans Laravel.
 
 Nous allons donc ensemble voir comment écrire des routes. Pour modifier ou ajouter des routes aux projets, il faut modifier le fichier routes/web.php
 
@@ -12,7 +14,7 @@ Route::get('/', function () {
     return "Hello world";
 });
 ```
-Ce bout de code nous indique que lorsque l'utilisateur arrivera sur la page (accueil) du projet soit à la racine, la route lui retournera la chaine de caractère "Hello World".
+Ce bout de code nous indique que lorsque l'utilisateur arrive sur la page (accueil) du projet soit à la racine, la route lui retourne la chaine de caractère "Hello World".
 
 ### 3. Des avec paramètres
 ```PHP
@@ -20,7 +22,7 @@ Route::get('/articles/{n}', function ($n) {
     return "Article n°: " .$n;
 });
 ```
-cette url http://127.0.0.1:8000/articles/50 retournera "Article n° 50"
+cette url http://127.0.0.1:8000/articles/50 retourne "Article n° 50"
 
 ### 4. Les regex
 
@@ -39,3 +41,17 @@ Route::get('/post/{category}/{article}',function($category,$article){
 la function where permet de parser les informations reçues via un regex, dans notre cas, il va prendre une infinité de chiffres uniquement.
 
 ### 5. Les vues
+Jusqu'à présent, nous avons vu comment passer des paramètres vers une autre page. Cependant, on peut également passer une vue soit une page.
+
+```PHP
+Route::get('post',function(){
+    return view('post');
+});
+```
+### 6. Vues et paramètres
+
+```PHP
+Route::get('user/{name}',function(){
+    return view('post',compact('name');
+});
+```
