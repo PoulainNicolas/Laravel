@@ -1,4 +1,4 @@
-## Les controlleurs
+## 7. Les controlleurs
 ### CRUD
 ```PHP
 php artisan make:controller HomeController --resource
