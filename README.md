@@ -12,3 +12,4 @@ Laravel est un framework web open-source écrit en PHP respectant le principe mo
 3. [La structure](https://github.com/pierrenoel/Laravel/blob/master/La%20structure.md)
 4. [Les routes](https://github.com/pierrenoel/Laravel/blob/master/Les%20routes.md)
 5. [Les migrations](https://github.com/pierrenoel/Laravel/blob/master/Les%20migrations.md)
+6. [Les modèles](https://github.com/pierrenoel/Laravel/blob/master/Les%20mod%C3%A8les.md)
