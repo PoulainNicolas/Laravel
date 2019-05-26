@@ -8,6 +8,8 @@ Dans le fichier web.php
 Route::resource('/','PostsController');
 ```
 
+![Route:list](https://github.com/pierrenoel/Laravel/blob/master/route:list.png)
+
 #### INDEX()
 ```PHP
 $posts = Post::all();
