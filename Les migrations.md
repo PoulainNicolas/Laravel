@@ -1,4 +1,4 @@
-### Les migrations
+## 5. Les migrations
 Dans ce chapitre, nous allons voir comment créer une table via une migration puis comment l'importer dans notre base de données.
 
 Pour commencer, nous allons demander à artisan de nous créer une migration "create_post_table
