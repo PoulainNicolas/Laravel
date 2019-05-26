@@ -14,3 +14,4 @@ Composer est un logiciel gestionnaire de dépendances libre écrit en PHP. Il pe
 4. Exécution de la commande suivante **php artisan key:generate** afin de générer une clé dans le fichier .env
 5. Exécution de la commande suivante **php artisan serve** Il va générer un lien sous un autre port (ex:8000) afin de laisser le port 80 disponible afin de travailler sous d'autres projets en même temps.
 
+[Database](https://github.com/pierrenoel/Laravel/blob/master/Database.md)
