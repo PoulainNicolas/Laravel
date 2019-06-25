@@ -1,4 +1,4 @@
-## Tinker
+## php artisan Tinker
 
 Tinker est une interface pour communiquer plus facilement avec la base de données de votre projet.
 Pour y accèder, il faut se rendre dans votre projet actuel.
