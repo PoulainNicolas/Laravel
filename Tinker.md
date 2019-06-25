@@ -41,3 +41,9 @@ $post->title="Mon premier article modifié";
 $post->content="Le contenu de mon premier article modifié";
 $post->save();
 ```
+
+### 4. Supprimer un post
+```
+$post = App\Post::find(1);
+$post->delete();
+```
