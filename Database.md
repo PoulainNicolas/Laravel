@@ -6,9 +6,9 @@
 DB_CONNECTION=mysql
 DB_HOST=127.0.0.1
 DB_PORT=3306
-DB_DATABASE=**TA BASE DE DONNÉES**
-DB_USERNAME=** Identifiant phpmyadmin**
-DB_PASSWORD= **Mot de passe phpmyadmin**
+DB_DATABASE=TA BASE DE DONNÉES
+DB_USERNAME=Identifiant phpmyadmin
+DB_PASSWORD=Mot de passe phpmyadmin
 ```
 3. Modification du fichier database.php (config/database.php)
 ```php
