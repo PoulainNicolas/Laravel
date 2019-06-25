@@ -5,9 +5,26 @@ Pour y accèder, il faut se rendre dans votre projet actuel.
 
 ``` php artisan tinker```
 
-### 1. Afficher toutes les entrées de votre table
+### . Afficher toutes les entrées de votre table
+
+#### A. Lister toutes les entrées
 ```
 App\Post::all();
+```
+
+#### B. Limiter les entrées
+```
+App\Post::limit(2)->get();
+```
+
+#### C. Afficher la première entrée
+```
+App\Post::first();
+```
+
+#### D. Afficher un article en particulier
+```
+App\Post::find(2);
 ```
 
 ### 2. Ajouter un nouveau post
