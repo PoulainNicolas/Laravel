@@ -36,7 +36,7 @@ $post->save();
 ```
 ### 3. Modifier un post
 ```
-$post = new App\Post::find(1);
+$post = App\Post::find(1);
 $post->title="Mon premier article modifié";
 $post->content="Le contenu de mon premier article modifié";
 $post->save();
