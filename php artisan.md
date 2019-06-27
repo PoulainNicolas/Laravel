@@ -1,4 +1,4 @@
-## Liste de toutes les commandes php artisan
+## Liste des commandes artisan
 ### 1. make:controller
 ```
 php artisan make:controller UserController
