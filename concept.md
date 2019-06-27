@@ -15,3 +15,21 @@ Pour cet exercice, nous avons besoin de 5 tables
 php artisan make:model Post -mcr
 php artisan make:model Category -mcr
 ```
+
+Avant de migrer, il faut lui assigner les champs. 
+```php
+  public function up()
+    {
+        Schema::create('posts', function (Blueprint $table) {
+            $table->increments('id');
+            
+            $table->string('title');
+            $table->text('content');
+
+            $table->timestamps();
+
+            $table->foreign('category_id')->references('id')->on('categories');
+        });
+    }
+```
+
