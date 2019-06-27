@@ -8,7 +8,7 @@ Pour y accèder, il faut se rendre dans votre projet actuel.
 ### . Afficher toutes les entrées de votre table
 
 #### A. Lister toutes les entrées
-```
+```terminal
 App\Post::all();
 ```
 
