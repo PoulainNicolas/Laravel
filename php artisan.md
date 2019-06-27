@@ -25,7 +25,12 @@ Le paramètre **--controller** crée un controlleur.
 Le paramètre **--resource** voir plus haut.
 
 Donc, il est possible lors de la création d'un modèle de lui créer une migration, un controlleur avec ses fonctions vues plus haut.
-
 ```
 php artisan make:model User --migration --controller --resouce
+php artisan make:model User -mcr // Raccourci 
 ```
+### 3. make:migration
+```
+php artisan make:migration create_Users_table
+```
+Création de la migration users
