@@ -22,14 +22,14 @@ Avant de migrer, il faut lui assigner les champs.
     {
         Schema::create('posts', function (Blueprint $table) {
             $table->increments('id');
-            
             $table->string('title');
             $table->text('content');
-
+            $table->integer('category_id')->unsigned()->index();
             $table->timestamps();
 
             $table->foreign('category_id')->references('id')->on('categories');
         });
     }
+
 ```
 
