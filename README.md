@@ -22,3 +22,5 @@ Laravel est un framework web open-source écrit en PHP respectant le principe mo
 
 ## Création d'un mini blog
 [Les formulaires](https://github.com/pierrenoel/Laravel/blob/master/Les%20formulaires.md)
+
+![You can do it](https://media3.giphy.com/media/1xVbRS6j52YSzp9P7N/giphy.gif?cid=790b76115d147911326c664877c18ef0&rid=giphy.gif)
