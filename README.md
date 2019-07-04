@@ -16,11 +16,11 @@ Laravel est un framework web open-source écrit en PHP respectant le principe mo
 7. [Les controlleurs](https://github.com/pierrenoel/Laravel/blob/master/Les%20controleurs.md)
 
 ## Perfectionnement
-[php artisan tinker](https://github.com/pierrenoel/Laravel/blob/master/Tinker.md)
+1. [php artisan tinker](https://github.com/pierrenoel/Laravel/blob/master/Tinker.md)
 
 ## Accompagnement
-[Liste des commandes artisan](https://github.com/pierrenoel/Laravel/blob/master/php%20artisan.md)
-[Les formulaires](https://github.com/pierrenoel/Laravel/blob/master/Les%20formulaires.md)
+1. [Liste des commandes artisan](https://github.com/pierrenoel/Laravel/blob/master/php%20artisan.md)
+2. [Les formulaires](https://github.com/pierrenoel/Laravel/blob/master/Les%20formulaires.md)
 
 ## CRUD - Exercice
 1. [Mise en place](https://github.com/pierrenoel/Laravel/blob/master/Exercice/001_mise%20en%20place.md)
