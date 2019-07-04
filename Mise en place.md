@@ -3,10 +3,10 @@ Avant de se lancer dans le développement du projet, il faut préparer son envir
 
 ### A. Télécharger Laravel via composer
 ```
-composer create-project --prefer-dist laravel/laravel crud
-cd crud
+composer create-project --prefer-dist laravel/laravel todo
+cd todo
 ``` 
-### B. Créer sa base donnée (crud) vide
+### B. Créer sa base donnée (todo) vide
 
 ### C. Renomer le fichier .env.example
 ```
