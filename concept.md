@@ -15,7 +15,7 @@ Avant de migrer, il faut lui assigner les champs.
 ```php
   public function up()
     {
-        Schema::create('posts', function (Blueprint $table) {
+        Schema::create('crud', function (Blueprint $table) {
             $table->increments('id');
             $table->string('title');
             $table->text('content');
