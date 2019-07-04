@@ -13,7 +13,7 @@ Avant de migrer, il faut lui assigner les champs.
 ```php
   public function up()
     {
-        Schema::create('crud', function (Blueprint $table) {
+        Schema::create('todo', function (Blueprint $table) {
             $table->increments('id');
             $table->string('name');
             $table->timestamps();
