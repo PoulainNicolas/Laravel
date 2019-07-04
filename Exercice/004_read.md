@@ -12,7 +12,7 @@ Rendez-vous dans la fonction index()
 ```php
 public function index(){
     $todos = Todo::all();
-    return view('todos.index',compact('todo'));
+    return view('todos.index',compact('todos'));
 }
 ```
 
