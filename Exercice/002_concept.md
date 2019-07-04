@@ -1,6 +1,6 @@
 ## 2. Concept
 ### A. Avant de se lancer
-Pour cet exercice, nous avons d'une seule table
+Pour cet exercice, nous avons besoin d'une seule table
 **todo**
 
 ### B. Création des modèles, des migrations et des controlleurs
