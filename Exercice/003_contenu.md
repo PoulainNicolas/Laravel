@@ -1,5 +1,5 @@
 ## 3. Contenu
-### A. Créons du contenu
+### A. Créer du contenu
 
 ```php
 php artisan tinker
