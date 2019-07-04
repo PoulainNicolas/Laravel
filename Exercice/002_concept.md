@@ -4,6 +4,7 @@ Pour cet exercice, nous avons d'une seule table
 **todo**
 
 ### B. Création des modèles, des migrations et des controlleurs
+
 ```
 php artisan make:model Todo -mcr
 ```
