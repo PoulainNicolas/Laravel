@@ -3,10 +3,10 @@ Avant de se lancer dans le développement du projet, il faut préparer son envir
 
 ### A. Télécharger Laravel via composer
 ```
-composer create-project --prefer-dist laravel/laravel miniBlog
+composer create-project --prefer-dist laravel/laravel crud
 cd miniBlog
 ``` 
-### B. Créer sa base donnée (minBlog) vide
+### B. Créer sa base donnée (crud) vide
 
 ### C. Renomer le fichier .env.example
 ```
