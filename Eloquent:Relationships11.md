@@ -2,7 +2,7 @@
 
 Dans cette section nous allons comment Laravel gère les relations entre les différentes tables.
 
-|  USER | |   PHONE  |
+| USERS | |  PHONES  |
 |:-----:|-|--------- |
 |id     | |id        |
 |name   | |numero    |
@@ -12,7 +12,7 @@ Dans cette section nous allons comment Laravel gère les relations entre les dif
 
 Dans notre exemple relationnel, 1:1. Un **user** a un **numéro de téléphone** et un **numéro de téléphone** appartient a un **user**
 
-|     USER     | |   PHONE  |
+|    USERS     | |  PHONES  |
 |:------------:|-|----------|
 |id            | |id        |
 |name          | |numero    |
@@ -34,7 +34,7 @@ public function up()
 {
     Schema::create('users', function (Blueprint $table) {
         $table->increments('id');
-        $table->text('name');
+        $table->string('name');
         $table->integer('age');
 
         $table->integer('numero_id')->unsigned();
@@ -50,7 +50,7 @@ public function up()
 {
     Schema::create('phones', function (Blueprint $table) {
         $table->increments('id');
-        $table->text('numero');
+        $table->string('numero');
     });
 }   
 ```
@@ -69,5 +69,5 @@ public function phone(){
 ```php
 public function user(){
     // Un user a un numéro de télépone
-    return $this->hasOne(Phone::class);
+    return $this->hasOne(Phone::class,'numero_id');
 }
