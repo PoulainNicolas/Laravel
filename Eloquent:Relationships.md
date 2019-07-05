@@ -5,7 +5,7 @@ Dans cette section nous allons comment Laravel gère les relations entre les dif
 ### 1. Relation 1:1 (one to one)
 
 |  USER | | PHONE |
-|:-----:|-|------ |
+|:-----:| |:-----:|
 |id     | |id     |
 |name   | |numero |
 |age    | |       |
