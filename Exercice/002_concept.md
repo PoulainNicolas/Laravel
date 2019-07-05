@@ -21,4 +21,4 @@ Avant de migrer, il faut lui assigner les champs.
     }
 
 ```
-
+[Contenu](https://github.com/pierrenoel/Laravel/blob/master/Exercice/003_contenu.md)
