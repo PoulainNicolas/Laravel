@@ -33,6 +33,6 @@ Rendez vous sur la page **show.blade.php** du dossier todos
 </ul>
 <a href="{{route('todos.create')}}">Nouvelle todo</a>
 ```
-(Delete)[https://github.com/pierrenoel/Laravel/blob/master/Exercice/008_delete.md]
+[Delete](https://github.com/pierrenoel/Laravel/blob/master/Exercice/008_delete.md)
 
 
