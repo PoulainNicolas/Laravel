@@ -41,7 +41,7 @@ public function destroy($id){
 
       {{ Form::token() }}
 
-      {{ Form::submit('Supprimer',array('class' => 'btn btn-danger')) }}
+      {{ Form::submit('Supprimer') }}
 
       {{ Form::close() }}
       </td>
