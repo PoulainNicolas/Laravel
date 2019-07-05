@@ -31,7 +31,7 @@ public function update(Request $request,$id){
 }
 ```
 
-### B. Affichons notre formulaire edit
+### B. Afficher notre formulaire edit
 Rendez vous sur la page **edit.blade.php** du dossier todos
 
 ```php
@@ -46,7 +46,7 @@ Rendez vous sur la page **edit.blade.php** du dossier todos
     {{ Form::close() }}
 ```
 
-### B. Modifions notre fichier **index.blade.php**
+### B. Modifer notre fichier **index.blade.php**
 
 ```php
 <ul>

@@ -1,5 +1,5 @@
 ## 5. Create
-### A. Créons une todo
+### A. Créer une todo
 
 #### 1. La fonction create()
 
@@ -37,7 +37,7 @@ par exemple si l'on veut que notre champ name soit unique
 'name'=>'required|unique:todos
 ```
 
-### B. Affichons notre formulaire
+### B. Afficher notre formulaire
 Rendez vous sur la page **create.blade.php** du dossier todos
 
 ```php

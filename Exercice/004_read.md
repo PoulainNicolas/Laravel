@@ -1,5 +1,5 @@
 ## 4. Read
-### A. Affichons notre todo 
+### A. Afficher notre todo 
 
 #### 1. La fonction index()
 
