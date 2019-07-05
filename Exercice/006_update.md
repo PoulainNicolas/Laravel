@@ -56,6 +56,5 @@ Rendez vous sur la page **edit.blade.php** du dossier todos
 </ul>
 <a href="{{route('todos.create')}}">Nouvelle todo</a>
 ```
-
-
+[Show](https://github.com/pierrenoel/Laravel/blob/master/Exercice/007_show.md)
 
