@@ -45,3 +45,5 @@ DB_PASSWORD=Mot de passe phpmyadmin
 ```
 php artisan key:generate
 ```
+
+[Concept](https://github.com/pierrenoel/Laravel/blob/master/Exercice/002_concept.md)
