@@ -17,6 +17,7 @@ Laravel est un framework web open-source écrit en PHP respectant le principe mo
 
 ## Perfectionnement
 1. [php artisan tinker](https://github.com/pierrenoel/Laravel/blob/master/Tinker.md)
+2. [Eloquent:relationships](https://github.com/pierrenoel/Laravel/blob/master/Eloquent:Relationships.md)
 
 ## Accompagnement
 1. [Liste des commandes artisan](https://github.com/pierrenoel/Laravel/blob/master/php%20artisan.md)
