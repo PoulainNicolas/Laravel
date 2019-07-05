@@ -1,4 +1,4 @@
-## 4. Create
+## 6. Update
 ### A. Modifier une todo
 
 #### 1. La fonction edit()
@@ -35,7 +35,7 @@ public function update(Request $request,$id){
 Rendez vous sur la page **edit.blade.php** du dossier todos
 
 ```php
-    {{ Form::model($todo, array('route' => array('clients.update', $client->id), 'method' => 'patch')) }}
+    {{ Form::model($todo, array('route' => array('Todos.update', $todo->id), 'method' => 'patch')) }}
     
     {{ Form::token() }}
 
