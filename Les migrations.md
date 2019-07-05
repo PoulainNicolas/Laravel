@@ -20,7 +20,6 @@ Dans la fonction UP, il va falloir écrire tous les champs de la table User
             $table->increments('id');
             $table->string('title');
             $table->text('content');
-            $table->string('slug');
             $table->timestamps();
         });
     }

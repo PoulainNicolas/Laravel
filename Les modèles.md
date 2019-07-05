@@ -12,7 +12,7 @@ class Post extends Model
 {
     protected $table = 'post'; //
 
-    protected $fillable = array('title,content,slug'); 
+    protected $fillable = array('title,content'); 
 
     public $timestamps = true;
 }

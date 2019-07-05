@@ -18,9 +18,9 @@ Ajouter cette ligne dans les alias
 'Html' => Collective\Html\HtmlFacade::class,
 ```
 
-## Création du formulaire
+### A. Création du formulaire
 ```PHP
-{{ Form::open(array('action' => 'FooController@store')}}
+{{ Form::open(array('action' => 'PostController@store')}}
   // Ajout des éléments du formulaire
 {{ Form::close() }}
 
@@ -52,11 +52,13 @@ Exemple:
 {{ Form::submit('Enregistrer',array('class' => 'btn btn-warning')) }}
 ```
 
+### B. Create
+
 ```PHP
 <div class="row justify-content-center">
     <div class="col-md-5 section">
     
-    {{ Form::open(array('action' => 'TodoController@store')) }}
+    {{ Form::open(array('action' => 'PostController@store')) }}
     
     {{ Form::token() }}
 
@@ -73,6 +75,38 @@ Exemple:
     <div class="form-group">
         {{ Form::submit('Enregistrer',array('class' => 'btn btn-warning')) }}
     </div>
+
+    {{ Form::close() }}
+
+    </div>
+</div>
+```
+
+### B. Update
+
+```PHP
+<div class="row justify-content-center">
+    <div class="col-md-5 section">
+    
+    {{ Form::model($post, array('route' => array('Posts.update', $post->id), 'method' => 'patch')) }}
+
+    
+    {{ Form::token() }}
+
+  <div class="form-group">
+        {{Form::label('title','Title')}}
+        {{Form::text('title',$post->title,array('class' => 'form-control','placeholder'=>'Titre'))}}
+    </div>
+
+    <div class="form-group">
+        {{Form::label('content','content')}}
+        {{Form::text('content',$post->content,array('class' => 'form-control','placeholder'=>'Content'))}}
+    </div>
+
+    <div class="form-group">
+        {{ Form::submit('Enregistrer',array('class' => 'btn btn-warning')) }}
+    </div>
+
 
     {{ Form::close() }}
 

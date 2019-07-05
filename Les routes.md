@@ -56,4 +56,10 @@ Route::get('user/{name}',function(){
 });
 ```
 
+### 7. Vues et controlleurs
+
+```PHP
+Route::resource('/posts','PostController');
+```
+
 [Les migrations](https://github.com/pierrenoel/Laravel/blob/master/Les%20migrations.md)
