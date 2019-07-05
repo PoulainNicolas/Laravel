@@ -48,5 +48,5 @@ Route::('/todo','TodoController');
 php artisan serve
 ``` 
 
-
+[Create](https://github.com/pierrenoel/Laravel/blob/master/Exercice/005_create.md)
 
