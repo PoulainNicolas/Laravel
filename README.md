@@ -21,6 +21,7 @@ Laravel est un framework web open-source écrit en PHP respectant le principe mo
 ## Accompagnement
 1. [Liste des commandes artisan](https://github.com/pierrenoel/Laravel/blob/master/php%20artisan.md)
 2. [Les formulaires](https://github.com/pierrenoel/Laravel/blob/master/Les%20formulaires.md)
+3. [Blade](https://github.com/pierrenoel/Laravel/blob/master/Blade.md)
 
 ## CRUD - Exercice
 1. [Mise en place](https://github.com/pierrenoel/Laravel/blob/master/Exercice/001_mise%20en%20place.md)
