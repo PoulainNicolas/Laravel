@@ -19,3 +19,10 @@ Dans notre exemple relationnel, 1:1. Un **user** a un **numéro de téléphone**
 |id_numero | |numero |
 |name      | |       |
 |age       | |       |
+
+Laravel traduit ceci comme 
+- hasOne
+- belongsTo
+
+#### Mise en application
+
