@@ -15,4 +15,4 @@ php artisan tinker
 >> $todo::all();
 ```
 
-
+[Read](https://github.com/pierrenoel/Laravel/blob/master/Exercice/004_read.md)
