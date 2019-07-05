@@ -17,7 +17,7 @@ Cette fonction permet d'envoyer l'utilisateur vers une page qui va contenir notr
 #### 2. la fonction store()
 
 ```php
-public function store(){
+public function store(Request $request){
      $request->validate([
             'name'=> 'required',
         ]);
