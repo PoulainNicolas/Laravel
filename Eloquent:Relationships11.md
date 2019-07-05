@@ -13,7 +13,7 @@ Dans cette section nous allons comment Laravel gère les relations entre les dif
 Dans notre exemple relationnel, 1:1. Un **user** a un **numéro de téléphone** et un **numéro de téléphone** appartient a un **user**
 
 |     USER     | |   PHONE  |
-|:----------:|-| |----------|
+|:------------:|-|----------|
 |id            | |id        |
 |name          | |numero    |
 |age           | |operateur |
