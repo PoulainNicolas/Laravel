@@ -51,6 +51,9 @@ Rendez vous sur la page **create.blade.php** du dossier todos
 
     {{ Form::close() }}
 ```
+
+[Les formulaires](https://github.com/pierrenoel/Laravel/blob/master/Les%20formulaires.md)
+
 ### B. Placer un lien **Nouvelle todo** dans notre fichier **index.blade.php**
 
 ```php
