@@ -2,22 +2,24 @@
 
 Dans cette section nous allons comment Laravel gère les relations entre les différentes tables.
 
-|  USER | | PHONE |
-|:-----:|-|------ |
-|id     | |id     |
-|name   | |numero |
-|age    | |       |
+|  USER | |   PHONE  |
+|:-----:|-|--------- |
+|id     | |id        |
+|name   | |numero    |
+|age    | |operateur |
+|       | |prefix    |
 
 
 Dans notre exemple relationnel, 1:1. Un **user** a un **numéro de téléphone** et un **numéro de téléphone** appartient a un **user**
 
-|    USER  | |  PHONE |
-|:--------:|-|------- |
-|id        | |id      |
-|name      | |numero  |
-|age       | |user_id |
+|     USER     | |   PHONE  |
+|:----------:|-| |----------|
+|id            | |id        |
+|name          | |numero    |
+|age           | |operateur |
+|**numero_id** | |prefix    |
 
-Nous voyons dans cet exemple que notre table **phone** a maintenant un clé étrangère **user_id**
+Nous voyons dans cet exemple que notre table **user** a maintenant un clé étrangère **numero_id**
 
 Laravel traduit ceci comme 
 - hasOne
@@ -34,6 +36,13 @@ public function up()
         $table->increments('id');
         $table->text('name');
         $table->integer('age');
+
+        $table->integer('numero_id')->unsigned();
+
+        $table->foreign('numero_id')
+            ->references('id')
+            ->on('phones')
+            ->onDelete('cascade');
     });
 }
 
@@ -42,13 +51,6 @@ public function up()
     Schema::create('phones', function (Blueprint $table) {
         $table->increments('id');
         $table->text('numero');
-
-        $table->integer('user_id')->unsigned();
-
-        $table->foreign('user_id')
-            ->references('id')
-            ->on('users')
-            ->onDelete('cascade');
     });
 }   
 ```
@@ -57,7 +59,7 @@ public function up()
 **User.php**
 
 ```php
-public function Phone(){
+public function phone(){
     // Un télphone appartient à un user
     return $this->belongsTo(User::class);
 }
@@ -65,7 +67,7 @@ public function Phone(){
 
 **Phone.php**
 ```php
-public function Phone(){
+public function user(){
     // Un user a un numéro de télépone
     return $this->hasOne(Phone::class);
 }
