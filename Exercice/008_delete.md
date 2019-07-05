@@ -35,7 +35,7 @@ public function destroy($id){
     <tr>
       <th>{{ $todo->id }}</th>
       <td><a href="{{ route('todos.show',$todo->id) }}">{{ $todo->name }}</a></td>
-      <td><a href="{{ route('clients.edit',$client->id) }}"> Modifier</a></td>
+      <td><a href="{{ route('todos.edit',$todo->id) }}"> Modifier</a></td>
       <td>
       {{ Form::model($todo, array('route' => array('todos.destroy', $todo->id), 'method' => 'delete')) }}
 
