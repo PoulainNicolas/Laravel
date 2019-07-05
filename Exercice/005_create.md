@@ -59,6 +59,6 @@ Rendez vous sur la page **create.blade.php** du dossier todos
 ```php
 <a href="{{route('todos.create')}}">Nouvelle todo</a>
 ```
-
+[Update](https://github.com/pierrenoel/Laravel/blob/master/Exercice/006_update.md)
 
 
