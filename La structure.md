@@ -1,6 +1,4 @@
 ## 3. La structure
-[Les routes](https://github.com/pierrenoel/Laravel/blob/master/Les%20routes.md)
-
 ```console
 |-app
     |-Htpp
@@ -39,3 +37,5 @@
 
 Pour inclure du javascript et du css dans un projet laravel, il faut se rendre dans le dossier
 **public** et non dans le dossier **resources**
+
+[Les routes](https://github.com/pierrenoel/Laravel/blob/master/Les%20routes.md)
