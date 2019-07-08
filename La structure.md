@@ -4,7 +4,7 @@
     |-Htpp
         |-Controllers
           PostController.php
-    Post.php
+  Post.php
 |-bootstrap
 |-config
     app.php
@@ -14,7 +14,7 @@
     database.php
 |-database
     |-migrations
-    2014_10_12_000000_create_users_table
+      2014_10_12_000000_create_users_table
 |-public
     |-css
     |-img
@@ -34,6 +34,7 @@
 * Les modèles sont placés à la racine du dossier **app**
 * Les controlleurs sont placés dans le dossier **app/Http/Controllers**
 * Les vues sont placées dans le dossier **resources/views**
+* Les migrations sont placées dans le dossier **database/migrations**
 
 Pour inclure du javascript et du css dans un projet laravel, il faut se rendre dans le dossier
 **public** et non dans le dossier **resources**
