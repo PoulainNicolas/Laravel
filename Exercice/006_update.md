@@ -13,7 +13,7 @@ public function edit($id){
     return view('todos.edit',compact('todo'));
 }
 ```
-Cette fonction va envoyer rediriger l'utilisateur sur la page edit avec l'id de la todo
+Cette fonction va rediriger l'utilisateur sur la page edit avec l'id de la todo
 
 #### 2. la fonction update()
 
