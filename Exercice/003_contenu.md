@@ -1,7 +1,7 @@
 ## 3. Contenu
 ### A. Créer du contenu
 
-Pour insérer du contenu dans en base de données, nous avons 2 manières. 
+Pour insérer du contenu en base de données, nous avons 2 manières. 
 * La première méthode est de se rendre directement dans phpmyadmin et de remplir nos champs. 
 * La deuxième mèthode est d'utiliser **php artisan tinker**, c'est celle-ci que nous allons utiliser aujourd'hui.
 
