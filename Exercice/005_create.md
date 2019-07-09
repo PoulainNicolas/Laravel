@@ -31,7 +31,7 @@ public function store(Request $request){
 ```
 
 Cette fonction permet d'une part de valider ce que l'utilisateur rendre comme donnée
-par exemple si l'on veut que notre champ name soit unique
+par exemple si l'on veut que notre champ name soit unique et d'une autre part d'enregister en DB les nouvelles entrées.
 
 ```php
 'name'=>'required|unique:todos
