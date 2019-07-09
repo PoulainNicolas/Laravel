@@ -39,7 +39,7 @@ touch index.blade.php create.blade.php edit.blade.php show.blade.php
 routes\web.php
 
 ```php
-Route::('/todo','TodoController');
+Route::resource('/todo','TodoController');
 
 ```
 
