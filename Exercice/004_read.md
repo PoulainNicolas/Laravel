@@ -21,6 +21,7 @@ public function index(){
 Créer un nouveau dossier dans **resources\views** et nommer-le todo.
 
 ```
+mkdir todo
 cd todo
 touch index.blade.php create.blade.php edit.blade.php show.blade.php 
 ```
