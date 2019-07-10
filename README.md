@@ -6,6 +6,8 @@ Laravel est un framework web open-source écrit en PHP respectant le principe mo
 2. [Composer](https://getcomposer.org/doc/00-intro.md)
 3. [Exemple](https://appdividend.com/2018/09/06/laravel-5-7-crud-example-tutorial/)
 
+4. [Composer-2](https://linuxize.com/post/how-to-install-and-use-composer-on-ubuntu-18-04/)
+
 ## Initiation
 1. [Installation](https://github.com/pierrenoel/Laravel/blob/master/Installation.md)
 2. [Database](https://github.com/pierrenoel/Laravel/blob/master/Database.md)
