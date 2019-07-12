@@ -4,7 +4,7 @@ Dans ce chapitre, nous allons voir comment créer une table via une migration pu
 Pour commencer, nous allons demander à artisan de nous créer une migration "create_post_table
 
 ```linux
-php artisan make:migration create_post_table
+php artisan make:migration create_post_table --create=posts
 ```
 
 A l'interieur de ce fichier (database/migrations), vous avez deux fonctions:
